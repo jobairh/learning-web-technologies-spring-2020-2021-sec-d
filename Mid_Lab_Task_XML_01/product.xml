@@ -1,0 +1,7 @@
+<products>
+    <product sr = "1">
+       <productName>Table</productName>
+       <productId>12</productId>
+       <productPrice>1500</productPrice>
+    </product>
+</products>
