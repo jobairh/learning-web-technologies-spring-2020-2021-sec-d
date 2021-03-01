@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Table Tag</title>
+	<title>Public Home</title>
 </head>
 <body>
 
@@ -11,15 +11,15 @@
 				<img src="logo.png" width="100%" height="100%">
 			</td>
 			<td colspan="2" align="right">
-				<a href="">Home</a> | 
-				<a href="">Login</a> |
-				<a href="">Registration</a> 
+				<a href="public_home1">Home</a> | 
+				<a href="login.html">Login</a> |
+				<a href="registration.html">Registration</a> &nbsp;
 			</td>
 			
 		</tr>
 		<tr height="450px">
-			<td>
-			<h1>Welcome to xCompany</h1>	
+			<td colspan="2">
+			<h1>&nbsp; Welcome to xCompany</h1>	
 			</td>
 			
 		</tr>
