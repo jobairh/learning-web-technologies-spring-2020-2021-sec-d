@@ -1,32 +1,33 @@
 <?php
 
-	//print_r($_GET['myname']);
-	//print_r($_POST);
+	
 	
 	if(isset($_POST['submit'])){
 
-		$name 	= $_POST['myname'];
+		$email 	= $_POST['email'];
 		
 
-		if($name == ""){
+		if($email == ""){
 			echo "null submission...";
 		}else{
-			echo $name;
-
+			echo $email;
 		}
+
 	}
+
 ?>
 
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Name Input</title>
+	<title>Email Input</title>
 </head>
 <body>
 	<form method="post" action="#">
 		<fieldset>
-			<legend>Name</legend>
-			Name: <input type="text" name="myname" value="<?php echo $name; ?>"> 
+			<legend>Email</legend>
+			Email: <input type="mail" name="email" value="<?php echo $email; ?>"> <br>
+			
 			<input type="submit" name="submit" value="submit">
 		</fieldset>
 	</form>
